@@ -11,7 +11,7 @@ def calculate_results(data):
     count = 0
     for sectionnum, sectiondata in data.items():
         for partyid in range(1, 22):
-            if "auto_machine" not in sectiondata:
+            if "auto_machine" not in sectiondata: # if there is no machine data from flash memory for this section, ignore it
                 continue
             auto_machine = 0
             if "auto_machine" in sectiondata and str(partyid) in sectiondata["auto_machine"]:
