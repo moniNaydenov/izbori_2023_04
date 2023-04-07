@@ -15,7 +15,7 @@ def process_urls(urls):
     current_url = 0
     for url in urls:
         current_url += 1
-        n = "./results/" + url[-16:]
+        n = "./protocols_raw/" + url[-16:]
         print ("Processing {}/{} URLs - {}".format(current_url, total_urls, url[-16:]))
         if os.path.exists(n) == False:
             print("File DOES NOT EXIST: ", n)
@@ -95,7 +95,7 @@ def process_human_file(html_content, sectionnum):
         print("There are less than 8 tables in the HTML file.", sectionnum)
 
 if __name__ == '__main__':
-    file_path = './data/urls.txt' # file with URLs
+    file_path = 'data/urls.txt'  # file with URLs
     output_path = './data/results.json' # file with results in JSON format
     urls = read_urls_from_file(file_path)
     process_urls(urls)

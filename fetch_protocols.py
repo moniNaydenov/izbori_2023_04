@@ -17,7 +17,7 @@ def process_urls(urls):
     current_url = 0
     for url in urls:
         current_url += 1
-        n = "./results/" + url[-16:]
+        n = "./protocols_raw/" + url[-16:]
         if os.path.exists(n):
             print("File exists: ", n)
             continue
