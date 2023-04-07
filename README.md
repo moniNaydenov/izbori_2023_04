@@ -19,4 +19,4 @@ This project analyzes the protocols from the Central Election Commission (ЦИК
    8. calculated_total_percent - percentage of votes from calculated_total
    9. calculated_human_total_percent - percentage of votes from calculated_human_total
 
-You can find summarized results here - [https://docs.google.com/spreadsheets/d/1GzoXYVOkIJ15SO6_rKPmlNySLLVbF3OQjiKgYzf_Hyk/edit#gid=0](https://docs.google.com/spreadsheets/d/1GzoXYVOkIJ15SO6_rKPmlNySLLVbF3OQjiKgYzf_Hyk/edit#gid=0)
+Analysis of results difference between the final protocol and the protocol from the flash memory of the machines (counting only sections where flash memory was read): [https://docs.google.com/spreadsheets/d/1GzoXYVOkIJ15SO6_rKPmlNySLLVbF3OQjiKgYzf_Hyk/edit#gid=0](https://docs.google.com/spreadsheets/d/1GzoXYVOkIJ15SO6_rKPmlNySLLVbF3OQjiKgYzf_Hyk/edit#gid=0)
